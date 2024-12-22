@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container cssanimation fadeInRight">
+        <h1 class="cssanimation leScaleXIn sequence" >Guess the Number...</h1>
+        <div class="status">
+            <div id="lives">Lives : ❤️❤️❤️ </div>
+            <div id="message"></div>
+        </div>
+        <input id="guess" placeholder="Enter your guess" />
+        <button id="submit">Submit Guess</button>
+        <button id="restart" class="hidden">Restart Game</button>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
